@@ -18,7 +18,7 @@ $client = new Aws\S3\S3Client([
                 'secret' => 'YOUR SECRET KEY',  //Change this
             ],
         'http'    => [
-            'verify' => 'cacert.pem'
+            'verify' => 'LOCATION OF YOUR CA CERTIFICATE'
         ]
 ]);
 
