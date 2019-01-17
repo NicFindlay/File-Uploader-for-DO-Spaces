@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+body {
+  display: block;
+  margin: 15% auto;
+  max-width: 300px;
+}
+
+label,
+input {
+  display: block;
+  margin: 5px 0;
+}
+
+
+input[type="submit"]{
+	margin-top: 20px;
+	padding: 8px 20px !important;
+	background: #9b1c21;
+	color: #fff;
+	font-size: 20px;
+  border-radius: 4px;
+}
